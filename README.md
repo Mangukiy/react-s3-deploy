@@ -100,9 +100,9 @@ AWS keys are securely stored in GitHub Secrets and never exposed in the reposito
  • Requires Email ID and Password for demo:
    • Email: hire-me@anshumat.org
    • Password: HireMe@2025!
-• Correct credentials display a welcome page 🎉
-• Incorrect credentials show an error message ❌
-• Login state is managed securely in React ⚛️
+ • Correct credentials display a welcome page 🎉
+ • Incorrect credentials show an error message ❌
+ • Login state is managed securely in React ⚛️
 
 🌐 Live Demo
  The application is hosted on a secure cloud environment with automatic deployment.
