@@ -7,25 +7,25 @@
 
 📋 Table of Contents
 
-🏗️ Project Overview
+1. 🏗️ Project Overview
 
-✨ Key Features
+2. ✨ Key Features
 
-🛠️ Technology Stack
+3. 🛠️ Technology Stack
 
-⚡ Setup & Installation
+4. ⚡ Setup & Installation
 
-📤 GitHub Deployment Instructions
+5. 📤 GitHub Deployment Instructions
 
-☁️ AWS S3 Hosting Setup
+6. ☁️ AWS S3 Hosting Setup
 
-🔄 CI/CD with GitHub Actions
+7. 🔄 CI/CD with GitHub Actions
 
-🔒 Login Functionality
+8.🔒 Login Functionality
 
-🌐 Live Demo
+9.🌐 Live Demo
 
-💡 Best Practices & Notes
+10. 💡 Best Practices & Notes
 
 🏗️ Project Overview
 
@@ -33,39 +33,39 @@ This is a modern React web application deployed on AWS S3 with automated CI/CD d
 
 It demonstrates:
 
-💻 Frontend development with React.js
+• 💻 Frontend development with React.js
 
-🔐 Secure login functionality
+• 🔐 Secure login functionality
 
-☁️ Deployment automation to AWS S3
+• ☁️ Deployment automation to AWS S3
 
-🛡️ Professional-level handling of credentials (all private info is kept secure)
+• 🛡️ Professional-level handling of credentials (all private info is kept secure)
 
 This project showcases end-to-end professional development, combining frontend skills with DevOps practices.
 
 ✨ Key Features
 
-⚛️ React-based responsive frontend
+• ⚛️ React-based responsive frontend
 
-🔑 Login page with Email ID and password authentication
+• 🔑 Login page with Email ID and password authentication
 
-🚀 Automatic deployment to AWS S3 via GitHub Actions
+• 🚀 Automatic deployment to AWS S3 via GitHub Actions
 
-🎨 Clean and professional UI
+• 🎨 Clean and professional UI
 
-🔒 Secure handling of private credentials
+• 🔒 Secure handling of private credentials
 
-⚙️ Easy maintenance and extensibility
+• ⚙️ Easy maintenance and extensibility
 
 🛠️ Technology Stack
 
-Frontend: React.js ⚛️
+• Frontend: React.js ⚛️
 
-Hosting: AWS S3 ☁️
+• Hosting: AWS S3 ☁️
 
-CI/CD: GitHub Actions 🔄
+• CI/CD: GitHub Actions 🔄
 
-Version Control: Git & GitHub 🐙
+• Version Control: Git & GitHub 🐙
 
 ⚡ Setup & Installation
 1️⃣ Clone the Project
@@ -79,20 +79,19 @@ npm install
 npm start
 
 
-Opens at http://localhost:3000
-
-Test the login functionality locally 🔑
+• Opens at http://localhost:3000
+• Test the login functionality locally 🔑
 
 📤 GitHub Deployment Instructions
 
-Push your project to GitHub:
+1. Push your project to GitHub:
 
 git add .
 git commit -m "Initial project setup"
 git push -u origin main
 
 
-For future updates:
+2. For future updates:
 
 git add .
 git commit -m "Update description of changes"
@@ -103,49 +102,42 @@ GitHub Actions workflow will automatically deploy your updates to AWS S3 🚀
 
 ☁️ AWS S3 Hosting Setup
 
-🆕 Create an S3 bucket with a unique name
+1. 🆕 Create an S3 bucket with a unique name
 
-🔧 Enable Static Website Hosting
+2. 🔧 Enable Static Website Hosting
 
-Index document: index.html
+    • Index document: index.html
+    • Error document: index.html
 
-Error document: index.html
+3. 🔐 Set Bucket Policy for public access
 
-🔐 Set Bucket Policy for public access
+4. ⚙️ Enable ACLs if needed for deployment
 
-⚙️ Enable ACLs if needed for deployment
-
-🔒 Keep bucket credentials secure using GitHub Secrets
+5. 🔒 Keep bucket credentials secure using GitHub Secrets
 
 🔄 CI/CD with GitHub Actions
 
-Automates build & deployment on every push to main
+• Automates build & deployment on every push to main
 
-Workflow tasks:
-
-✅ Checkout repository
-
-✅ Install dependencies
-
-✅ Build React app
-
-✅ Sync build/ folder to S3
+• Workflow tasks:
+  • ✅ Checkout repository
+  • ✅ Install dependencies
+  • ✅ Build React app
+  • ✅ Sync build/ folder to S3
 
 AWS keys are securely stored in GitHub Secrets and never exposed in the repository 🔐
 
 🔒 Login Functionality
 
-Requires Email ID and Password for demo:
+• Requires Email ID and Password for demo:
+  • Email: hire-me@anshumat.org
+  • Password: HireMe@2025!
 
-Email: hire-me@anshumat.org
+• Correct credentials display a welcome page 🎉
 
-Password: HireMe@2025!
+• Incorrect credentials show an error message ❌
 
-Correct credentials display a welcome page 🎉
-
-Incorrect credentials show an error message ❌
-
-Login state is managed securely in React ⚛️
+• Login state is managed securely in React ⚛️
 
 🌐 Live Demo
 
@@ -155,14 +147,14 @@ The live URL is confidential for security, but every push automatically updates 
 
 💡 Best Practices & Notes
 
-🔑 Private credentials are never exposed in the repository
+• 🔑 Private credentials are never exposed in the repository
 
-⚡ Deployment is fully automated; no manual uploads needed
+• ⚡ Deployment is fully automated; no manual uploads needed
 
-📝 Commands in this README are only for pushing updates to GitHub
+• 📝 Commands in this README are only for pushing updates to GitHub
 
-🚀 Project showcases both frontend development and DevOps automation
+• 🚀 Project showcases both frontend development and DevOps automation
 
-🔄 Login credentials can be updated safely in Login.js and redeployed automatically
+• 🔄 Login credentials can be updated safely in Login.js and redeployed automatically
 
 This project demonstrates professional end-to-end workflow from React development to automated cloud deployment, ideal for recruiters and HR to assess your skills 💼
