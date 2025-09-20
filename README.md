@@ -6,16 +6,16 @@
 
 
 📋 Table of Contents
-  1. 🏗️ Project Overview
-  2. ✨ Key Features
-  3. 🛠️ Technology Stack
-  4. ⚡ Setup & Installation
-  5. 📤 GitHub Deployment Instructions
-  6. ☁️ AWS S3 Hosting Setup
-  7. 🔄 CI/CD with GitHub Actions
-  8. 🔒 Login Functionality 
-  9. 🌐 Live Demo
- 10. 🔒 Login Functionality
+   1. 🏗️ Project Overview
+   2. ✨ Key Features
+   3. 🛠️ Technology Stack
+   4. ⚡ Setup & Installation
+   5. 📤 GitHub Deployment Instructions
+   6. ☁️ AWS S3 Hosting Setup
+   7. 🔄 CI/CD with GitHub Actions
+   8. 🔒 Login Functionality 
+   9. 🌐 Live Demo
+  10. 🔒 Login Functionality
 
 🏗️ Project Overview
     
