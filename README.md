@@ -22,13 +22,13 @@
   
    It demonstrates:
 
-   • 💻 Frontend development with React.js
+    • 💻 Frontend development with React.js
 
-   • 🔐 Secure login functionality
+    • 🔐 Secure login functionality
 
-   • ☁️ Deployment automation to AWS S3
+    • ☁️ Deployment automation to AWS S3
 
-   • 🛡️ Professional-level handling of credentials (all private info is kept secure)
+    • 🛡️ Professional-level handling of credentials (all private info is kept secure)
 
     This project showcases end-to-end professional development, combining frontend skills with DevOps practices.
 
@@ -68,47 +68,51 @@
   3️⃣ Run Locally
        npm start
 
- • Opens at http://localhost:3000
+      • Opens at http://localhost:3000
  
- • Test the login functionality locally 🔑
+      • Test the login functionality locally 🔑
 
 📤 GitHub Deployment Instructions
 
-   1. Push your project to GitHub:
+       1. Push your project to GitHub:
 
-       git add .
-       git commit -m "Initial project setup"
-       git push -u origin main
+          git add .
 
-  2. For future updates:
+          git commit -m "Initial project setup"
 
-       git add .
-       git commit -m "Update description of changes"
-       git push
+          git push -u origin main
+
+       3. For future updates:
+
+          git add .
+
+          git commit -m "Update description of changes"
+
+          git push
 
      GitHub Actions workflow will automatically deploy your updates to AWS S3 🚀
 
 ☁️ AWS S3 Hosting Setup
 
-1. 🆕 Create an S3 bucket with a unique name
+       1. 🆕 Create an S3 bucket with a unique name
 
-2. 🔧 Enable Static Website Hosting
+       2. 🔧 Enable Static Website Hosting
 
-    • Index document: index.html
+           • Index document: index.html
 
-    • Error document: index.html
+           • Error document: index.html
 
-4. 🔐 Set Bucket Policy for public access
+       4. 🔐 Set Bucket Policy for public access
 
-5. ⚙️ Enable ACLs if needed for deployment
+       5. ⚙️ Enable ACLs if needed for deployment
 
-6. 🔒 Keep bucket credentials secure using GitHub Secrets
+       6. 🔒 Keep bucket credentials secure using GitHub Secrets
 
 🔄 CI/CD with GitHub Actions
 
-    • Automates build & deployment on every push to main
+     • Automates build & deployment on every push to main
     
-    • Workflow tasks:
+     • Workflow tasks:
       
       • ✅ Checkout repository
       
@@ -136,19 +140,20 @@
 
 🌐 Live Demo
 
-     The application is hosted on a secure cloud environment with automatic deployment.
+       The application is hosted on a secure cloud environment with automatic deployment.
  
-     The live URL is confidential for security, but every push automatically updates the deployed site 🔄
+       The live URL is confidential for security, but every push automatically updates the deployed site 🔄
 
 💡 Best Practices & Notes
    
-   • 🔑 Private credentials are never exposed in the repository
+      • 🔑 Private credentials are never exposed in the repository
    
-   • ⚡ Deployment is fully automated; no manual uploads needed
+      • ⚡ Deployment is fully automated; no manual uploads needed
    
-   • 📝 Commands in this README are only for pushing updates to GitHub
+      • 📝 Commands in this README are only for pushing updates to GitHub
    
-   • 🚀 Project showcases both frontend development and DevOps automation
-   • 🔄 Login credentials can be updated safely in Login.js and redeployed automatically
+      • 🚀 Project showcases both frontend development and DevOps automation
+ 
+      • 🔄 Login credentials can be updated safely in Login.js and redeployed automatically
 
      This project demonstrates professional end-to-end workflow from React development to automated cloud deployment, ideal for recruiters and HR to assess your skills 💼
