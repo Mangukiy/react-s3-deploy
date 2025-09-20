@@ -87,7 +87,7 @@
 
           git push -u origin main
 
-       3. For future updates:
+       2. For future updates:
 
           git add .
 
@@ -107,11 +107,31 @@
 
            • Error document: index.html
 
-       4. 🔐 Set Bucket Policy for public access
+       3. 🔐 Set Bucket Policy for public access
 
-       5. ⚙️ Enable ACLs if needed for deployment
+       4. ⚙️ Enable ACLs if needed for deployment
 
-       6. 🔒 Keep bucket credentials secure using GitHub Secrets
+       5. 🔒 Keep bucket credentials secure using GitHub Secrets
+
+🔐 IAM Policy Setup (AmazonS3FullAccess)
+
+       • Go to AWS Console → IAM → Users → Add User, give it a name (e.g., react-s3-deployer) and select Programmatic access 🔑
+
+       • On the Permissions page, choose Attach policies directly → search and tick ✅ AmazonS3FullAccess
+
+       • Finish creating the user → download Access Key ID & Secret Access Key (⚠ keep safe, never push to GitHub)
+
+       • In GitHub → Repo → Settings → Secrets & Variables → Actions, add:
+
+            AWS_ACCESS_KEY_ID → your access key
+
+            AWS_SECRET_ACCESS_KEY → your secret key
+
+            AWS_REGION → e.g., ap-south-1
+
+            AWS_S3_BUCKET → your bucket name
+
+       • Best Practices: use full access only for setup, later move to least-privilege policy 🔒, rotate keys regularly 🔄, and delete user if no longer required 🗑
 
 🔄 CI/CD with GitHub Actions
 
