@@ -18,54 +18,59 @@
  10. 🔒 Login Functionality
 
 🏗️ Project Overview
+    
     This is a modern React web application deployed on AWS S3 with automated CI/CD  deployment via GitHub Actions.
   
-   It demonstrates:
+    It demonstrates:
 
-    • 💻 Frontend development with React.js
+     • 💻 Frontend development with React.js
 
-    • 🔐 Secure login functionality
+     • 🔐 Secure login functionality
 
-    • ☁️ Deployment automation to AWS S3
+     • ☁️ Deployment automation to AWS S3
 
-    • 🛡️ Professional-level handling of credentials (all private info is kept secure)
+     • 🛡️ Professional-level handling of credentials (all private info is kept secure)
 
-    This project showcases end-to-end professional development, combining frontend skills with DevOps practices.
+     This project showcases end-to-end professional development, combining frontend skills with DevOps practices.
 
 ✨ Key Features
 
-   • ⚛️ React-based responsive frontend
+    • ⚛️ React-based responsive frontend
   
-   • 🔑 Login page with Email ID and password authentication
+    • 🔑 Login page with Email ID and password authentication
    
-   • 🚀 Automatic deployment to AWS S3 via GitHub Actions
+    • 🚀 Automatic deployment to AWS S3 via GitHub Actions
    
-   • 🎨 Clean and professional UI
+    • 🎨 Clean and professional UI
    
-   • 🔒 Secure handling of private credentials
+    • 🔒 Secure handling of private credentials
    
-   • ⚙️ Easy maintenance and extensibility
+    • ⚙️ Easy maintenance and extensibility
 
 🛠️ Technology Stack
 
-   • Frontend: React.js ⚛️
+    • Frontend: React.js ⚛️
    
-   • Hosting: AWS S3 ☁️
+    • Hosting: AWS S3 ☁️
    
-   • CI/CD: GitHub Actions 🔄
+    • CI/CD: GitHub Actions 🔄
    
-   • Version Control: Git & GitHub 🐙
+    • Version Control: Git & GitHub 🐙
 
 ⚡ Setup & Installation
 
-  1️⃣ Clone the Project
+   1️⃣ Clone the Project
+      
        git clone https://github.com/<your-username>/react-s3-deploy.git
+       
        cd react-s3-deploy
 
-  2️⃣ Install Dependencies
+   2️⃣ Install Dependencies
+      
        npm install
 
-  3️⃣ Run Locally
+   3️⃣ Run Locally
+      
        npm start
 
       • Opens at http://localhost:3000
