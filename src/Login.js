@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 function Login({ onLogin }) {
-  const [email, setEmail] = useState(""); // changed from username
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Hardcoded Email/Password check
-    if (email === "hire-me@anshumat.org " && password === " HireMe@2025! ") {
-      onLogin(true);
+    // Your credentials
+    if (email === "hire-me@anshumat.org" && password === "HireMe@2025!") {
+      onLogin(true); // triggers App.js to show welcome page
     } else {
       setError("Invalid Email or Password");
     }
@@ -25,6 +25,7 @@ function Login({ onLogin }) {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           style={styles.input}
+          required
         />
         <input
           type="password"
@@ -32,6 +33,7 @@ function Login({ onLogin }) {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           style={styles.input}
+          required
         />
         <button type="submit" style={styles.button}>Login</button>
         {error && <p style={styles.error}>{error}</p>}
