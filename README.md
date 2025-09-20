@@ -105,7 +105,9 @@ AWS keys are securely stored in GitHub Secrets and never exposed in the reposito
  • Login state is managed securely in React ⚛️
 
 🌐 Live Demo
+
  The application is hosted on a secure cloud environment with automatic deployment.
+ 
  The live URL is confidential for security, but every push automatically updates the deployed site 🔄
 
 💡 Best Practices & Notes
