@@ -8,7 +8,7 @@ function Login({ onLogin }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Hardcoded Email/Password check
-    if (email === "krish@example.com" && password === "mypassword123") {
+    if (email === "hire-me@anshumat.org " && password === " HireMe@2025! ") {
       onLogin(true);
     } else {
       setError("Invalid Email or Password");
