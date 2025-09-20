@@ -23,8 +23,11 @@
 It demonstrates:
 
 • 💻 Frontend development with React.js
+
 • 🔐 Secure login functionality
+
 • ☁️ Deployment automation to AWS S3
+
 • 🛡️ Professional-level handling of credentials (all private info is kept secure)
 
  This project showcases end-to-end professional development, combining frontend skills with DevOps practices.
